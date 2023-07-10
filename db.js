@@ -6,5 +6,6 @@ module.exports = new Sequelize(
   {
     host: "sql.freedb.tech",
     dialect: "mysql",
+    dialectModule: require("mysql2"),
   }
 );
