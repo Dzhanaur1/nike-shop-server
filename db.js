@@ -1,8 +1,8 @@
 const { Sequelize } = require("sequelize");
 module.exports = new Sequelize(
-  process.env.DB_NAME, // Название БД
-  process.env.DB_USER, // Пользователь
-  process.env.DB_PASSWORD, // ПАРОЛЬ
+  "freedb_NikeShop", // Название БД
+  "freedb_alexx", // Пользователь
+  "RxmHZWJzuFj9%p9", // ПАРОЛЬ
   {
     host: "sql.freedb.tech",
     dialect: "mysql",
