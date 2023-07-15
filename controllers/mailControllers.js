@@ -48,7 +48,11 @@ const sendMail = (req, res) => {
       res.status(500).send("Error");
     } else {
       console.info("Успешнно отправлено");
-      res.status(200).send("Успешно отправлено");
+      res.status(200).send(
+        (responce = {
+          access: true,
+        })
+      );
     }
   });
 };
